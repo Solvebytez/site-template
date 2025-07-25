@@ -22,6 +22,8 @@
 
   <!-- Custom CSS -->
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 
 </head>
 
@@ -56,25 +58,31 @@
     <header>
       <nav class="main-navbar">
         <div class="wrapper">
-          <div class="logo"><a href="#"><img src="./assets/img/logo.png" alt="" srcset=""></a></div>
+          <div class="logo"><a href="index.html"><img src="./assets/img/logo.png" alt="" srcset=""></a></div>
           <input type="radio" name="slider" id="menu-btn">
           <input type="radio" name="slider" id="close-btn">
           <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
             <li>
-              <a href="#" class="desktop-item">Dropdown Menu</a>
+              <a href="#" class="desktop-item">Our Services</a>
               <input type="checkbox" id="showDrop">
-              <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+              <label for="showDrop" class="mobile-item">Our Services</label>
               <ul class="drop-menu">
-                <li><a href="#">Drop menu 1</a></li>
-                <li><a href="#">Drop menu 2</a></li>
-                <li><a href="#">Drop menu 3</a></li>
-                <li><a href="#">Drop menu 4</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="web-development.html">Web-Development</a></li>
+                <li><a href="App-development.html">App-Development</a></li>
+                <li><a href="Web-designing.html">Web-Designing</a></li>
+                <li><a href="Digital-marketing.html">Digital-Marketing</a></li>
+                <li><a href="Game-development.html">Game-Development</a></li>
+                <li><a href="software-development.html">Software-Development</a></li>
+                <li><a href="blockchain.html">Blockchain</a></li>
               </ul>
             </li>
-            <li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <!--<li>
               <a href="#" class="desktop-item">Mega Menu</a>
               <input type="checkbox" id="showMega">
               <label for="showMega" class="mobile-item">Mega Menu</label>
@@ -109,11 +117,16 @@
                   </div>
                 </div>
               </div>
-            </li>
+            </li>-->
             <li><a href="contact.html">Contact-US</a></li>
           </ul>
           <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+          <div class="atb-menu-btn position-relative">
+            <a href="contact.html" class="th-btn black-btn th-icon"><button class="btn" id="contact-btn"><span>Free
+                  Quote</span></button></a>
+          </div>
         </div>
+
       </nav>
     </header>
 
@@ -193,6 +206,13 @@
 
 
       </div>
+      <div class="top_social_media">
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-whatsapp"></i></a>
+      </div>
     </div>
 
 
@@ -201,7 +221,7 @@
 
 
     <!--About-section-start-->
-    <div class="about-area position-relative overflow-hidden space overflow-hidden shape-mockup-wrap pb-120"
+    <div class="pt-120 about-area position-relative overflow-hidden space overflow-hidden shape-mockup-wrap pb-120"
       id="about-sec">
       <div class="container">
         <div class="row">
@@ -840,7 +860,7 @@
     </div>
     <!--All-services-end-->
     <!--choose us-start-->
-    <section class="choose-one">
+    <section class="choose-one pt-120 pb-120">
 
       <div class="container">
 
@@ -964,140 +984,47 @@
       </div>
     </section>
     <!--choose-us-end-->
-    <!--Serve-industry-start-->
-    <div class="serve-industry pt-120">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-3 col-12">
-            <div class="industry-left">
-              <h2>Industries We Serve</h2>
-              <p>Transforming Industries to Become Smarter and Safer at Advaitsoftech We Tackle Some of the World's
-                Biggest Challenges by Building Great Digital Products.</p>
+    <div class="counter-section">
+      <div class="container py-5">
+        <div class="row g-4 atb-box">
+          <div class="col-12 col-md-3">
+            <div class="counter-box">
+              <div class="counter-number" data-count="354">354</div>
+              <div class="operator">K</div>
             </div>
+            <div class="counter-title">Completed Projects</div>
           </div>
-          <div class="col-xl-9 col-12">
-            <div class="industry-right">
-              <div class="row">
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo1.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Supply Chain</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo2.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Healthcare</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo3.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Finance</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo4.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Education</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo5.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Real Estate</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo6.webp" alt="" class="img-fluid">
-                    <p class="fs-6">E-commerce</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo7.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Government</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo8.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Startup</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo9.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Logistics</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo10.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Gaming</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo11.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Travel</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo12.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Entertainment</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo13.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Fintech</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo14.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Event &amp; Ticket</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo15.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Hotel</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo16.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Manufacturing</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo17.webp" alt="" class="img-fluid">
-                    <p class="fs-6">On-Demand</p>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="industry-img text-center">
-                    <img src="https://advaitsoftech.com/assets/images/industry-logo18.webp" alt="" class="img-fluid">
-                    <p class="fs-6">Food</p>
-                  </div>
-                </div>
-              </div>
+          <div class="col-12 col-md-3">
+            <div class="counter-box">
+              <div class="counter-number" data-count="1219">1219</div>
+              <div class="operator">+</div>
             </div>
+            <div class="counter-title">Satisfied Clients</div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="counter-box">
+              <div class="counter-number" data-count="99">99</div>
+              <div class="operator">+</div>
+            </div>
+            <div class="counter-title">Web Site Analyse</div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="counter-box">
+              <div class="counter-number" data-count="321">321</div>
+              <div class="operator">%</div>
+            </div>
+            <div class="counter-title">Clients Support Done</div>
           </div>
         </div>
       </div>
     </div>
+
     <!--contact-us-start-->
-   
+
     <!--contact-us-end-->
     <!--Serve-industry-end-->
     <section
-      class="elementor-section elementor-inner-section elementor-element elementor-element-4cf34f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+      class="elementor-section elementor-inner-section elementor-element elementor-element-4cf34f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default pt-120 pb-120"
       data-id="4cf34f4" data-element_type="section">
       <div class="elementor-container elementor-column-gap-default">
         <div
@@ -2884,6 +2811,134 @@
       </div>
     </section>
     <!--Our-partners-start-->
+    <!--Serve-industry-start-->
+    <div class="serve-industry pt-120">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-3 col-12">
+            <div class="industry-left">
+              <h2>Industries We Serve</h2>
+              <p>Transforming Industries to Become Smarter and Safer at Advaitsoftech We Tackle Some of the World's
+                Biggest Challenges by Building Great Digital Products.</p>
+            </div>
+          </div>
+          <div class="col-xl-9 col-12">
+            <div class="industry-right">
+              <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo1.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Supply Chain</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo2.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Healthcare</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo3.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Finance</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo4.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Education</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo5.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Real Estate</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo6.webp" alt="" class="img-fluid">
+                    <p class="fs-6">E-commerce</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo7.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Government</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo8.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Startup</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo9.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Logistics</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo10.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Gaming</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo11.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Travel</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo12.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Entertainment</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo13.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Fintech</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo14.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Event &amp; Ticket</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo15.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Hotel</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo16.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Manufacturing</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo17.webp" alt="" class="img-fluid">
+                    <p class="fs-6">On-Demand</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+                  <div class="industry-img text-center">
+                    <img src="https://advaitsoftech.com/assets/images/industry-logo18.webp" alt="" class="img-fluid">
+                    <p class="fs-6">Food</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--<div class="client-secton pt-80 pb-80 position-relative">
       <div class="container">
         <div class="row">
@@ -2901,118 +2956,135 @@
         </div>
       </div>    
     </div>-->
+    <div class="client-section pt-120 pb-120 position-relative">
+      <h2 class="sub-title text-white text-center pb-5">~ Our Partners ~</h2>
+      <section class="customer-logos slider pt-5">
+        <div class="slide"><img src="assets/images/client-logo/1.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/2.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/3.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/4.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/6.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/7.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/8.png" alt="icon"></div>
+        <div class="slide"><img src="assets/images/client-logo/9.png" alt="icon"></div>
+      </section>
+    </div>
+
   </div>
   <!-- End Main -->
 
   <!--Footer-section-start-->
   <footer id="footer">
     <div class="top-footer">
-            <div class="container">
-                <div class="box-newsletter-footer">
-                    <div class="newsletter-left">
-                        <div class="mb-3">
-                            <a href="#"><img src="assets/imgs/template/logo-footer-3.svg" alt="logo"></a>
-                        </div>
-                        <span class="sub-heading-sm color-white"> Digital Business Consulting Agency </span>
-                    </div>
-                    <div class="newsletter-right">
-                        <h6 class="sub-heading-ag-xl-m color-white">Subscribe Our Newsletter</h6>
-                        <div class="form-newsletter">
-                            <form action="#">
-                                <input type="text" class="form-control" placeholder="Email Address" required>
-                                <input type="submit" class="btn btn-newsletter" value="Subscribe Now">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <div class="bottom-footer">
       <div class="container">
-      <div class="footer-grid">
-        <!-- Colonne 1 - À propos -->
-        <div class="footer-column">
-          <h3>Harmonie</h3>
-          <p>Notre mission est d'apporter paix et sérénité dans votre vie quotidienne grâce à des solutions de
-            bien-être innovantes.</p>
-
-          <div class="social-links">
-            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <div class="box-newsletter-footer">
+          <div class="newsletter-left">
+            <div class="mb-3">
+              <a href="#"><img src="assets/imgs/template/logo-footer-3.svg" alt="logo"></a>
+            </div>
+            <span class="atb-sub-heading"> Digital Business Consulting Agency </span>
           </div>
-        </div>
-
-        <!-- Colonne 2 - Liens rapides -->
-        <div class="footer-column">
-          <h3>Navigation</h3>
-          <ul class="footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-          </ul>
-        </div>
-
-        <!-- Colonne 3 - Support -->
-        <div class="footer-column">
-          <h3>Support</h3>
-          <ul class="footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-          </ul>
-        </div>
-
-        <!-- Colonne 4 - Contact -->
-        <div class="footer-column">
-          <h3>Contact</h3>
-
-          <div class="contact-info">
-            <div class="contact-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <span>123 Rue du Bien-être<br>75000 Paris, France</span>
-            </div>
-
-            <div class="contact-item">
-              <i class="fas fa-phone-alt"></i>
-              <span>+33 1 23 45 67 89<br>Lun-Ven, 9h-18h</span>
-            </div>
-
-            <div class="contact-item">
-              <i class="fas fa-envelope"></i>
-              <span>contact@harmonie.com<br>support@harmonie.com</span>
+          <div class="newsletter-right">
+            <h6 class="atb-sub-heading">Subscribe Our Newsletter</h6>
+            <div class="form-newsletter">
+              <form action="#">
+                <input type="text" class="form-control" placeholder="Email Address" required>
+                <input type="submit" class="btn btn-newsletter" value="Subscribe Now">
+              </form>
             </div>
           </div>
-
-          <div class="newsletter">
-            <p>Abonnez-vous à notre newsletter :</p>
-            <form class="newsletter-form">
-              <input type="email" class="newsletter-input" placeholder="Votre email" aria-label="Votre adresse email"
-                required>
-              <button type="submit" class="newsletter-btn">S'abonner</button>
-            </form>
-          </div>
         </div>
-      </div>
-
-      <div class="copyright">
-        <p>&copy;
-          <script>document.write(new Date().getFullYear())</script> Harmonie. Tous droits réservés. | <a
-            href="#">Mentions légales</a> | <a href="#">Politique des cookies</a>
-        </p>
       </div>
     </div>
+    <div class="bottom-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Colonne 1 - À propos -->
+          <div class="footer-column">
+            <h3>Harmonie</h3>
+            <p>Notre mission est d'apporter paix et sérénité dans votre vie quotidienne grâce à des solutions de
+              bien-être innovantes.</p>
+
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Colonne 2 - Liens rapides -->
+          <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 3 - Support -->
+          <div class="footer-column">
+            <h3>Support</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 4 - Contact -->
+          <div class="footer-column">
+            <h3>Contact</h3>
+
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 Rue du Bien-être<br>75000 Paris, France</span>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <span>+33 1 23 45 67 89<br>Lun-Ven, 9h-18h</span>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>contact@harmonie.com<br>support@harmonie.com</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy;
+            <script>document.write(new Date().getFullYear())</script> Harmonie. Tous droits réservés. | <a
+              href="#">Mentions légales</a> | <a href="#">Politique des cookies</a>
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
   <!--Footer-section-end-->
+  <div class="scroll-top">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+        style="transition: stroke-dashoffset 0.2s linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919; stroke: #014126; stroke-width: 5; fill: white;">
+      </path>
+    </svg>
+    <span class="scroll-top-icon"><i class="fa fa-arrow-up"></i></span>
+  </div>
+
+
+
 
 
 
@@ -3024,6 +3096,34 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!--==Our Client==-->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+
   <script src="./assets/js/main.js"></script>
   <script>
     // Wait until the DOM is ready
